@@ -1,0 +1,3 @@
+# Ruby Instance Variable Modification
+
+This example highlights a subtle behavior when directly modifying instance variables in Ruby using `instance_variable_set`.  Observe the output and how the presence of the `@` symbol impacts the outcome.  This illustrates the difference between using the symbol `:@value` and the string `'@value'` when modifying instance variables. The latter does not affect the accessor method, as it is creating a new instance variable
